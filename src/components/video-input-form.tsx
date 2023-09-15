@@ -49,10 +49,21 @@ export function VideoInputForm() {
             'libmp3lame',
             'output.mp3'
         ])
+
+		const data = await ffmpeg.readFile('output.mp3');
+
+		const audioFileBlob = new Blob([data], { type: 'audio/mpeg'})
+		const audioFile = new File([audioFileBlob], 'audio.mp3', {
+			type: 'audio/mpeg'
+		})
+
+		console.log('Convert finished.')
+
+		return audioFile;
     }
 
 
-	function handleUploadVideo(event: FormEvent<HTMLFormElement>) {
+	async function handleUploadVideo(event: FormEvent<HTMLFormElement>) {
 		event.preventDefault();
 
 		const prompt = promptInputRef.current?.value;
@@ -61,7 +72,9 @@ export function VideoInputForm() {
 			return;
 		}
 
+		const audioFile = await convertVideoToAudio(videoFile);
 
+		console.log(audioFile, prompt)
 	}
 
 	const previewURL = useMemo(() => {
