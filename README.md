@@ -3,7 +3,7 @@
 Aplicação web desenvolvida durante o NLW IA 2023 da Rocketseat, com foco em processamento de vídeo e geração de conteúdo com Inteligência Artificial.
 
 Este repositório contém o front-end da aplicação.
-O back-end pode ser acessado [aqui](https://github.com/TatianaOnishi/upload-ai-api)
+O back-end pode ser acessado [aqui](https://github.com/TatianaOnishi/upload-ai-api).
 
 ## 💡 Sobre o projeto
 
@@ -14,7 +14,7 @@ O upload.ai é uma aplicação que transforma vídeos em conteúdo estruturado u
  - O usuário realiza o upload de um vídeo.
  - O vídeo é processado e transcrito.
  - A transcrição é enviada para um modelo da OpenAI.
- - A IA gera títulos e descrições com base no conteúdo
+ - A IA gera títulos e descrições com base no conteúdo.
 
 ### O usuário pode:
 
@@ -36,23 +36,23 @@ A aplicação permite transformar conteúdo bruto em materiais prontos para publ
 
 ## 🧠 Conceitos aplicados
 
- - Componentização e reutilização
- - Controle de estado
- - Integração com API externa
- - Manipulação de arquivos (upload)
- - Configuração dinâmica de parâmetros de IA
- - UI moderna com acessibilidade via Radix
+ - Componentização e reutilização.
+ - Controle de estado.
+ - Integração com API externa.
+ - Manipulação de arquivos (upload).
+ - Configuração dinâmica de parâmetros de IA.
+ - UI moderna com acessibilidade via Radix.
 
 ## ▶️ Como executar o projeto
 ### 1️⃣ Instalar dependências
-`npm install`
+```npm install``` 
 
 ### 2️⃣ Executar em ambiente de desenvolvimento
-`npm run dev`
+```npm run dev``` 
 
 A aplicação estará disponível em:
 
-`http://localhost:5173`
+```http://localhost:5173``` 
 
 ## 📌 Objetivo
 
