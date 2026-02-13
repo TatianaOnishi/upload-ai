@@ -50,7 +50,12 @@ export function App() {
 
 					<Separator orientation="vertical" className="h-6" />
 
-					<Button variant="outline">
+					<Button
+						variant="outline"
+						onClick={() =>
+							window.open("https://github.com/TatianaOnishi/upload-ai", "_blank")
+						}
+					>
 						<Github className="w-4 h-4 mr-2" />
 						Github
 					</Button>
