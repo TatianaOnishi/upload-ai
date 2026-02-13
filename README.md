@@ -45,14 +45,21 @@ A aplicação permite transformar conteúdo bruto em materiais prontos para publ
 
 ## ▶️ Como executar o projeto
 ### 1️⃣ Instalar dependências
-```npm install``` 
+```
+npm install
+``` 
 
 ### 2️⃣ Executar em ambiente de desenvolvimento
-```npm run dev``` 
+```
+npm run dev
+``` 
 
 A aplicação estará disponível em:
 
-```http://localhost:5173``` 
+```
+http://localhost:5173
+
+``` 
 
 ## 📌 Objetivo
 
